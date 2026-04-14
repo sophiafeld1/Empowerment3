@@ -110,3 +110,5 @@ def generate_email_draft(sponsor: Sponsor, email_type: str) -> str:
         raise ValueError(f"Unsupported email_type: {email_type}")
 
     return templates[email_type](sponsor)
+
+

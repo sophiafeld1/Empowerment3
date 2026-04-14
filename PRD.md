@@ -7,26 +7,28 @@ E3 serves 300 children and adults with disabilities, English language learners, 
 
 # Schema:
 
-`Name`: business name (str)
-`industry`: type of business what is their industry (str) restaurant, retail, fitness, healthcare, nonprofit, student org, etc.)
-`description`: about the business / org (str)
-`services_to_E3`: What the business can provide to E3 (multi-select): gift card, parternship-event, partnership-accessibility, fundrasing
-`organization_type`:(business, nonprofit, club/org, school unit)
-`E3_provides`: What does E3 provide to them? (multi-select): visibility, accessibility consulting services, helping their community (str)
-`email`: contact info email (str)
-`phone`: ###-###-#### (str)
-`city`: (str)
-`state`: (str)
-`zip`: (int)
-`website`: (str)
-`company_size`: (int)
-`has_physical_location`: (bool)
-`location_accessibility_level`: (unknown/basic/advanced) (str) unknown = no reliable info, basic = wheelchair access / ADA basics visible, advanced = clear accessibility features beyond basics, detailed info provided
-`has_community_giving_program`: (bool)
-`serves_populations`:(disability community, youth, refugees, veterans, older adults) (multi-select)
-`jmu_affiliated`: bool
-`past_e3_engagement`: (str) none/contacted/partnered/donated 
-`collaborates_with_community` low, medium, high low = little visible, community involvement, medium = some partnerships/sponsorships/community activity, high = frequent, public, ongoing community engagement
+`Name`: business name (str)\n
+`industry`: type of business what is their industry (str) restaurant, retail, fitness, healthcare, nonprofit, student org, etc.)   
+`description`: about the business / org (str) and goods and services \n
+`services_to_E3`: What the business can provide to E3 (multi-select): gift card, parternship-event, partersnhip fundrasing, gift \n 
+`organization_type`:(business, nonprofit, club/org, school unit) \n
+`E3_provides`: What does E3 provide to them? (multi-select): visibility, accessibility consulting services, helping their community (str) \n
+`email`: contact info email (str) \n
+`name`:  \n
+`phone`: ###-###-#### (str)  \n
+`city`: (str)  \n 
+`state`: (str)  \n 
+`zip`: (int)  \n 
+`website`: (str) \n 
+`company_size`: (int) \n 
+`has_physical_location`: (bool)  \n 
+`location_accessibility_level`: (unknown/basic/advanced) (str) unknown = no reliable info, basic = wheelchair access / ADA basics visible, advanced = clear accessibility features beyond basics, detailed info provided \n
+`has_community_giving_program`: (bool) \n
+`serves_populations`:(disability community, youth, refugees, veterans, older adults) (multi-select) \n 
+`jmu_affiliated`: bool \n 
+`past_e3_engagement`: (str) none/contacted/partnered/donated \n 
+`collaborates_with_community` low, medium, high low = little visible, community involvement, medium = some partnerships/sponsorships/community activity, high = frequent, public, ongoing community engagement \n 
+`has a tie to E3` \n 
 
 
 
@@ -43,9 +45,9 @@ Catagories:
 **4.fundraising:** ask business if they would like to fundraise for E3. This mainly applies to organizations/clubs at JMU as they fundraise for phillanthopy.
 
 **Catagories of the benefit businesses would receive in exchange:**
-1. visibility of their busines (feature on instagram, feature on flier, bringing E3 mentors and mentees to their business)
-2. accesibility consulting services (activities accesible for individuals with disabilities)
-3. helping the community (phillanthropic reasons)
+1. visibility of their busines (feature on instagram, feature on flier, bringing E3 mentors and mentees to their business)\n
+2. accesibility consulting services (activities accesible for individuals with disabilities)\n
+3. helping the community (phillanthropic reasons)\n
 
 # Data Collection + Verification (Brief)
 - Use a hybrid approach: web research + LLM extraction + manual review for high-priority records.
