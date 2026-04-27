@@ -29,6 +29,12 @@ class E3Database:
         ("giving_priorities", "TEXT"),
         ("jmu_affiliated", "INTEGER"),
         ("past_e3_engagement", "TEXT"),
+        ("sponsor_capacity_level", "TEXT"),
+        ("recommended_ask_level", "TEXT"),
+        ("classification_confidence", "TEXT"),
+        ("classification_reason", "TEXT"),
+        ("classification_last_updated", "TEXT"),
+        ("manual_override", "INTEGER"),
     ]
 
     # Removed from schema; triggers rebuild + data mapping from serves_populations -> giving_priorities.
